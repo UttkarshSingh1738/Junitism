@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.junitism</groupId>
+        <artifactId>junitism</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>junitism-gradle-plugin</artifactId>
+    <packaging>jar</packaging>
+    <name>Junitism Gradle Plugin</name>
+    <description>Gradle plugin for Junitism test generation</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.junitism</groupId>
+            <artifactId>junitism-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.junitism</groupId>
+            <artifactId>junitism-llm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.gradle</groupId>
+            <artifactId>gradle-api</artifactId>
+            <version>8.5</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+</project>
