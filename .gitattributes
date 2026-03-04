@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Java
+*.java text diff=java
+*.xml text
+*.properties text
+
+# Binaries
+*.jar binary
+*.war binary
+*.class binary
